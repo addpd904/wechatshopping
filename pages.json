@@ -16,6 +16,21 @@
             "style" : {}
         }
     ],
+	"subPackages":[
+		{
+			"root":"subpkg",
+			"pages":[
+			    {
+                    "path" : "goods_list/goods_list",
+                    "style" : {}
+                }
+                ,{
+                    "path" : "goods_detail/goods_detail",
+                    "style" : {}
+                }
+            ]
+		}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "2号商城",
